@@ -1,7 +1,7 @@
 class Animal {
     String name;
     int age;
-
+  
     // Normal constructor
     Animal(String inputName, int inputAge) {
         name = inputName;
