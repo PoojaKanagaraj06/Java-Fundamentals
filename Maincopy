@@ -1,0 +1,35 @@
+class Animal {
+    String name;
+    int age;
+
+    // Normal constructor
+    Animal(String inputName, int inputAge) {
+        name = inputName;
+        age = inputAge;
+    }
+
+    // Copy constructor
+    Animal(Animal sourceAnimal) {
+        name = sourceAnimal.name;
+        age = sourceAnimal.age;
+    }
+}
+
+public class Maincopy {
+    public static void main(String[] args) {
+
+        Animal dog = new Animal("JAZZ", 3);
+
+        // Copying dog object
+        Animal dogCopy = new Animal(dog);
+
+        Animal cat = new Animal("Mia", 2);
+        Animal catCopy = new Animal(cat);
+
+        System.out.println("Dog  : " + dog.name + ", " + dog.age);
+        System.out.println("DogCopy: " + dogCopy.name + ", " + dogCopy.age);
+
+        System.out.println("Cat  : " + cat.name + ", " + cat.age);
+        System.out.println("CatCopy: " + catCopy.name + ", " + catCopy.age);
+    }
+}
