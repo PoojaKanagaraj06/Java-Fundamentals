@@ -28,20 +28,6 @@ It is intended for **beginners, students, and interview preparation**, covering 
 
 ---
 
-## 📂 Repository Structure
-
-```
-JavaFundamentals/
-│
-├── Basics/
-├── Loops/
-├── Conditions/
-├── Arrays/
-├── Strings/
-├── NumberPrograms/
-├── Patterns/
-└── PracticeProblems/
-```
 
 ---
 
